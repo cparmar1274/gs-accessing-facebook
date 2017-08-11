@@ -19,7 +19,7 @@ projects: [spring-social-facebook]
 :source-highlighter: prettify
 :project_id: gs-accessing-facebook
 
-This guide walks you through the process of creating a simple web application that accesses Facebook data. 
+This guide walks you through the process of creating a simple web application that accesses Facebook data.
 
 == What you'll build
 
@@ -144,7 +144,13 @@ image::images/connected.png[A connection with Facebook has been created.]
 Click the link on the connection status page, and you are taken to the home page. This time, now that a connection has been created, you see your name on Facebook and a list of some recent entries in your home feed. Included for each post in the feed list is the name of the sender, the post's message, and the post's picture (if available).
 
 == Summary
-Congratulations! You have developed a simple web application that obtains user authorization to fetch data from Facebook. The application connects the user to Facebook through Spring Social, retrieves data from the user's Facebook profile, and also fetches profile data from the user's Facebook friends. 
+Congratulations! You have developed a simple web application that obtains user authorization to fetch data from Facebook. The application connects the user to Facebook through Spring Social, retrieves data from the user's Facebook profile, and also fetches profile data from the user's Facebook friends.
+
+== See Also
+
+The following guides may also be helpful:
+
+* https://spring.io/guides/gs/register-facebook-app/[Registering an Application with Facebook]
+* https://spring.io/guides/gs/accessing-twitter/[Accessing Twitter Data]
 
 include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/footer.adoc[]
-
